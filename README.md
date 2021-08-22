@@ -38,7 +38,7 @@ Liest und generiert `.hex` für BS100 Bordcomputer.
 
 Das Schild kann dieses Format verarbeiten wenn man die Datenbank im BSLoader flasht.
 
-### Aktive Datensätze
+#### Aktive Datensätze
 Man kann Datensätze auswählen bzw. aktivieren/deaktivieren:
 
 Datensätze für "Ziel":
