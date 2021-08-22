@@ -45,3 +45,17 @@ Glyph 172 (¬) ist ein besser nachgezeichneter Robo.
 Glyph 174 (®) ist ein Cocktailglas.
 
 Beide Glyphen sind nur für Schriftgröße 6 definiert und haben oben 2 freie Pixelreihen, nach unten schließen sie im Schild ab.
+
+## robo7.hex
+Destination 0 ist ROBOEXOTICA
+Destination 1 ist Zeitspannenangabe
+
+Die Glyphen für :, 0, 1, 2, 4, 8 sind nach dem Bitmap in `bitmaps/zeitspanne.gif` nachgezeichnet.
+Glyph 172 (¬) ist ein besser nachgezeichneter Robo.
+Glyph 174 (®) ist ein Cocktailglas.
+
+Beide Glyphen sind nur für Schriftgröße 6 definiert und haben oben 2 freie Pixelreihen, nach unten schließen sie im Schild ab.
+
+Destination 1 sieht ca. so aus:
+
+![Bitmap das als Vorbild für Destination 1 gedient hat](../bitmaps/zeitspanne.gif)
