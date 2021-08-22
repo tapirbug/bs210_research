@@ -30,7 +30,7 @@ In _Datensätze_ DS001 für Liniennummer und DS003 für Zielnummer aktivieren.
 In Formular gibt es dann für jeden Datensatz ein Textfeld, und mit dem _Senden_-Button sprechen wir unser BS210 an und setzen die Texte:
 ![DS001 und DS003 über WinIBIS setzen](screenshots/winibis.png)
 
-## Texte flashen
+## Texte und Schriften flashen
 Mit `gBUSE0` lassen sich Ziel-Datenbanken erstellen und mit dem `BSLoader` kann man sie hochladen.
 
 ###  gBUSE0
@@ -62,6 +62,22 @@ Beispiel im Destination Editor:
 ![Zielnummer 0 in Destination Editor von robo4.hex](screenshots/gbuse0_destination_editor.png)
 
 Über _File | Save as..._ kann man die `.hex`-Datenbank rausspielen, das man später mit _BSLoader_ auf das Gerät flasht.
+
+#### Font Editor
+Über _Tools | Font Editor_ lässt sich die Schrift der aktuellen Datenbank ändern:
+![Ein Robo im Font Editor](screenshots/font_editor.png)
+
+Mit der Zahl in _Font number_ lässt sich einstellen welche Schriftgröße man editiert.
+
+Die Schrift in `robo4.hex` hat einige nicht beleget Glyphen, z.B. dezimal 172--175 die man gut für eigene Bitmaps verwenden könnte.
+
+172 steht für ¬
+173 steht für ein nicht sichtbares Zeichen
+174 steht für ®
+
+Man kann einen _Key_ einspeichern, nicht sicher was er genau macht. Ich hab es auf das Unicode-Zeichen mit diesem Codepoint gesetzt.
+
+Auch hier unbedingt auf _SAVE_ drücken bevor man die Ansicht ändert. Dabei wird auch ein schwarzes Rechteck unter die ausgewählten gelben Punkte gezeichnet, man muss sie also nicht manuell von grau auf schwarz ändern.
 
 ### Uploaden mit BSLoader
 Erkennt BS210 und man kann data files hochladen. Configuration und Program ist ausgegraut und kann nicht hochgeladen werden.
