@@ -31,3 +31,17 @@ Spätere destinations haben mit Kuchen und/oder WCs und raven zu tun.
 ## robo4.hex
 Destination 0 ist ROBOEXOTICA ohne Liniennummer.
 Destination 1 ist ROBOEXOTICA mit Liniennummer.
+
+## robo5.hex
+Ähnlich wie die letzten aber mit einem Robogesicht-Test auf Destination 7.
+
+Glyph 172 ist ein schlecht nachgezeichneter Robo.
+
+## robo6.hex
+Destination 0 ist ROBOEXOTICA
+Destination 1 ist Zeitspannenangabe
+
+Glyph 172 (¬) ist ein besser nachgezeichneter Robo.
+Glyph 174 (®) ist ein Cocktailglas.
+
+Beide Glyphen sind nur für Schriftgröße 6 definiert und haben oben 2 freie Pixelreihen, nach unten schließen sie im Schild ab.
