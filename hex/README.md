@@ -1,6 +1,119 @@
 # Hex Files für Robo Exotica
 Beschreibungen für die `*.hex` files in `hex`, neueste zuerst.
 
+## robo11.hex
+Line 100: Robo
+Line 101: Cocktailglas
+Line 102: Robo+Cocktailglas
+Line 103: Cocktailglas+Robo
+Line 104: 2 x Robo
+Line 105: 2 x Cotkailglas
+Line 106: Blank
+
+### Destination 0
+![Destination 0](robo10_preview/destination0.jpg)
+
+### Destination 1
+Für September 9-11
+
+![Destination 1](robo10_preview/destination1.jpg)
+
+### Destination 2
+Für September 10
+
+
+![Destination 2](robo10_preview/destination2.jpg)
+
+### Destination 3
+Für September 10
+
+
+![Destination 3](robo10_preview/destination3.jpg)
+
+### Destination 4
+Für September 10
+
+![Destination 4](robo10_preview/destination4.jpg)
+
+### Destination 5
+Für September 9
+
+![Destination 5](robo10_preview/destination5.jpg)
+
+
+### Destination 6
+Für September 9
+
+![Destination 6](robo10_preview/destination6.jpg)
+
+### Destination 7
+Für September 11
+
+![Destination 7](robo10_preview/destination7.jpg)
+
+### Destination 8
+Für September 11
+
+![Destination 8](robo10_preview/destination8.jpg)
+
+### Destination 9
+Für September 10 und 11
+Glyphe für 6 fehlt.
+
+![Destination 9](robo10_preview/destination9.jpg)
+
+### Destination 10
+Für September 9-11
+
+![Destination 10](robo10_preview/destination10.jpg)
+
+### Destination 11
+Für September 10-11
+
+![Destination 11](robo10_preview/destination11.jpg)
+
+### Destination 12
+Für September 10-12 (Nacht)
+
+![Destination 12](robo10_preview/destination12.jpg)
+
+### Destination 13
+Für September 10-12 (Nacht)
+
+![Destination 13](robo10_preview/destination13.jpg)
+
+### Destination 14
+Für September 10-12 (Nacht)
+
+![Destination 14](robo10_preview/destination14.jpg)
+
+### Destination 15
+Für September 10-12 (Nacht)
+
+![Destination 15](robo10_preview/destination15.jpg)
+
+### Destination 16
+Für September 10-12 (Nacht)
+
+![Destination 16](robo11_preview/destination16.jpg)
+
+### Destination 17
+Für vor dem Event
+
+![Destination 17](robo11_preview/destination17.jpg)
+
+### Schriftanpassungen
+Betrifft nur Größe / Font number 6:
+Die Glyphen für :, 0, 1, 2, 4, 8 sind nach dem Bitmap in `bitmaps/zeitspanne.gif` nachgezeichnet.
+Glyph 94 (^) ist ein Robo mit geschlossenen Augen
+Glyph 96 (`) sind schlafmäßige zzzz
+Glyph 172 (¬) ist ein besser nachgezeichneter Robo.
+Glyph 174 (®) ist ein Cocktailglas.
+Glyph 193 ({) sind noch mehr kleinere schlafmäßige zzzz mit extra Abstand am Anfang
+
+Beide Glyphen sind nur für Schriftgröße 6 definiert und haben oben 2 freie Pixelreihen, nach unten schließen sie im Schild ab.
+
+
 ## robo10.hex
 Line 100: Robo
 Line 101: Cocktailglas
@@ -77,29 +190,20 @@ Für September 10-12 (Nacht)
 
 ![Destination 12](robo10_preview/destination12.jpg)
 
-### Destination 11
+### Destination 13
 Für September 10-12 (Nacht)
 
 ![Destination 13](robo10_preview/destination13.jpg)
 
-### Destination 11
+### Destination 14
 Für September 10-12 (Nacht)
 
 ![Destination 14](robo10_preview/destination14.jpg)
 
-### Destination 11
+### Destination 15
 Für September 10-12 (Nacht)
 
 ![Destination 15](robo10_preview/destination15.jpg)
-
-### Destination 11
-Für September 10-12 (Nacht)
-
-![Destination 11](robo10_preview/destination11.jpg)
-
-
-
-
 
 Die Glyphen für :, 0, 1, 2, 4, 8 sind nach dem Bitmap in `bitmaps/zeitspanne.gif` nachgezeichnet.
 Glyph 172 (¬) ist ein besser nachgezeichneter Robo.
