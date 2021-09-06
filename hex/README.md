@@ -52,10 +52,24 @@ Space: 1
 Shift: 0
 Interval 1,0
 
-## mini1.hex
-Line 001 is capital A, font size 0, minimal spacing between characters
+zD, zN, aSD all greyed out and off
+
+### Lines / Destinations
+Line 001 is capital A, font size 0, minimal spacing between characters, left bounded
 
 Destination 001 is capital AAA, font size 0, minimal spacing between characters
+
+## mini1.hex
+Same, but for line/destination adds one A, so we have A and AAAA
+
+## mini2.hex
+Same as mini0, but with additional line "002" with text "AAA" and 2px character spacing
+
+## mini3.hex
+Same as mini0, but with additional destination "002" with text "AAAAAAAAAAAAAAAAAAAA" (20 As) and no character spacing
+
+## mini4.hex
+Same as mini3, but with 1 px character spacing.
 
 ## experiment0.hex
 Version of robo11.hex with a
