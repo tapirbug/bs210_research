@@ -1,6 +1,13 @@
 # Hex Files für Robo Exotica
 Beschreibungen für die `*.hex` files in `hex`, neueste zuerst.
 
+## experiment0.hex
+Version of robo11.hex with a
+* new destination 700 that says "anna", centered, font size 7, 1 line
+* new destination 701 that says "anna2", linksbündig, einen pixel nach rechts, font size 8, 1line
+* new destination 702 that says "anna" linksbündig on one line, ein pixel nach rechts, and "anna" on another rechtsbündig ein pixel nach rechts und minimaler Zeichenabstand, linksbündig, einen pixel nach rechts, beide font size 3,
+* new line 700: "anna", font size 6, one line, 1 px spaxing
+
 ## robo11.hex
 Line 100: Robo
 Line 101: Cocktailglas
