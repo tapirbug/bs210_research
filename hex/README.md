@@ -1,6 +1,62 @@
 # Hex Files für Robo Exotica
 Beschreibungen für die `*.hex` files in `hex`, neueste zuerst.
 
+## mini0.hex
+Only defines the character A (decimal 65), font number 0, like this:
+```
+ X
+X X
+XXX
+X X
+```
+
+"FW" is set to the default of 2.15
+
+"Information fiel" is set to "line+destination"
+
+"Database version" is 0
+
+### Config / Tab "Line field"
+"Line field"  is set left/right/top/bottom (for in tabs both "line field" and "destination field") 1 28 19 1
+
+"Destination field"
+Font: 0
+Space: 1
+Shift: 0
+Interval 1,0
+
+### Config / Tab "Destination field"
+"Line field"  is set left/right/top/bottom (for in tabs both "line field" and "destination field") 29 140 19 1
+
+"Destination field"
+Font: 0
+Space: 1
+Shift: 5
+Interval 1,0
+
+"line field" / "Stop field"
+l, aASL is activated
+la, aL, kA are all de-activated
+
+"stop field" / "stop field"
+z, aSZ activated
+zC zA zl aA and aSC all deactivated
+
+Options
+All activated, including "to turn always all dots" which is deactivated per default
+
+### Config / Tab "Destination field"
+"Line field"  is set left/right/top/bottom (for in tabs both "line field" and "destination field") 1 1 1 1
+Font: 0
+Space: 1
+Shift: 0
+Interval 1,0
+
+## mini1.hex
+Line 001 is capital A, font size 0, minimal spacing between characters
+
+Destination 001 is capital AAA, font size 0, minimal spacing between characters
+
 ## experiment0.hex
 Version of robo11.hex with a
 * new destination 700 that says "anna", centered, font size 7, 1 line
